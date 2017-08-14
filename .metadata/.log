@@ -164,3 +164,65 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jface.text 2 0 2017-08-14 12:35:36.580
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-14 15:37:52.411
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-14 15:37:52.412
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-08-14 15:43:16.687
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\annotations-api.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\catalina-ant.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\catalina-ha.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\catalina-storeconfig.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\catalina-tribes.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\catalina.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\ecj-4.6.3.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\el-api.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\jasper-el.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\jasper.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\jaspic-api.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\jsp-api.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\servlet-api.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-api.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-coyote.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-dbcp.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-i18n-es.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-i18n-fr.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-i18n-ja.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-jdbc.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-jni.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-util-scan.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-util.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-websocket.jar
+  [+] C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\websocket-api.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
