@@ -1,0 +1,7 @@
+<html>
+<body>
+	The student from ${param.country} is confirmed: 
+	<%= request.getParameter("firstName") %> <%= request.getParameter("lastName") %>
+	Programming Language seleted: ${param.favoriteLanguage}
+</body>
+</html>

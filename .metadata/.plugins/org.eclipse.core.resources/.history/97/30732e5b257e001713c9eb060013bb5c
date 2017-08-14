@@ -1,0 +1,8 @@
+
+<html>
+	<body>
+	<jsp:include page="myHeader.html" />
+	<>
+	<jsp:include page="myFooter.jsp" />
+	</body>
+</html>

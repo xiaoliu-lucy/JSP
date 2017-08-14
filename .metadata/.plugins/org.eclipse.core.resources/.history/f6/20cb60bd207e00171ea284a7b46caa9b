@@ -1,0 +1,7 @@
+package love2code.jsp;
+
+public class funUtilis {
+	public static String makeItLower(String data) {
+		return data.toLowerCase();
+	}
+}

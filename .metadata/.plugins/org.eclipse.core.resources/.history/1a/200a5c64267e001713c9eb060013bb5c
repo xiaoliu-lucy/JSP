@@ -1,0 +1,14 @@
+
+<html>
+	<body>
+	<jsp:include page="myHeader.html" />
+	<h3>Student Login</h3>
+	</br></br>	
+	<form action="student-response.jsp">
+	  First name: <input type="text" name="firstName" />
+	  Last name: <input type="text" name="lastName" />
+	  <input type="submit" value="Submit" />
+	</form>
+	<jsp:include page="myFooter.jsp" />
+	</body>
+</html>

@@ -1,0 +1,4 @@
+INDEX VERSION 1.130+C:\Users\liuxi\Documents\Java Project\JSP\tagdemo\.metadata\.plugins\org.eclipse.jdt.core
+1613806278.index
+3079316779.index
+3406804311.index

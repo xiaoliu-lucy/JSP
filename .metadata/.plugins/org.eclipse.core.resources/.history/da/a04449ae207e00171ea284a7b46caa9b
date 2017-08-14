@@ -1,0 +1,7 @@
+<%@ page import="love2code.jsp.*" %>
+<html>
+	<body>
+	<h3>Call Java Class from JSP</h3>
+	To lower case: <%= funUtilis.makeItLower("FUN FUN FUN") %>
+	</body>
+</html>

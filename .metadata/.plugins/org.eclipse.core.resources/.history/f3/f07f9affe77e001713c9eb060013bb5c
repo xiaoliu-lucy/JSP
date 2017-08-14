@@ -1,0 +1,15 @@
+<html>
+<body>
+	The student from ${param.country} is confirmed: 
+	</br></br>
+	<%= request.getParameter("firstName") %> <%= request.getParameter("lastName") %>
+	</br></br>
+	Programming Language selected: ${param.favoriteLanguage}
+	</br></br>
+	Food Preference: <% String[] langs = request.getParameterValues("favoriteFood");
+						for (String temp: langs) {
+							out.println("<l1>" + temp + "</li>");
+						}
+					 %>
+</body>
+</html>

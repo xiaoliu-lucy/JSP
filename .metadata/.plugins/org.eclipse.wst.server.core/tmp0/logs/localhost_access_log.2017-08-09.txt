@@ -1,0 +1,11 @@
+127.0.0.1 - - [09/Aug/2017:17:20:38 -0700] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [09/Aug/2017:17:20:40 -0700] "GET /jspdemo/helloworld.jsp HTTP/1.1" 200 120
+0:0:0:0:0:0:0:1 - - [09/Aug/2017:17:45:18 -0700] "GET /jspdemo/helloworld.jsp HTTP/1.1" 200 120
+0:0:0:0:0:0:0:1 - - [09/Aug/2017:17:54:38 -0700] "GET /jspdemo/expressions.jsp HTTP/1.1" 500 2558
+0:0:0:0:0:0:0:1 - - [09/Aug/2017:17:55:09 -0700] "GET /jspdemo/expressions.jsp HTTP/1.1" 200 151
+0:0:0:0:0:0:0:1 - - [09/Aug/2017:17:55:35 -0700] "GET /jspdemo/expressions.jsp HTTP/1.1" 200 158
+0:0:0:0:0:0:0:1 - - [09/Aug/2017:17:56:03 -0700] "GET /jspdemo/expressions.jsp HTTP/1.1" 200 158
+0:0:0:0:0:0:0:1 - - [09/Aug/2017:17:56:12 -0700] "GET /jspdemo/expressions.jsp HTTP/1.1" 200 162
+0:0:0:0:0:0:0:1 - - [09/Aug/2017:17:57:45 -0700] "GET /jspdemo/expressions.jsp HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - - [09/Aug/2017:17:59:47 -0700] "GET /jspdemo/expressions.jsp HTTP/1.1" 200 384
+0:0:0:0:0:0:0:1 - - [09/Aug/2017:18:28:34 -0700] "GET /jspdemo/expressions.jsp HTTP/1.1" 200 452

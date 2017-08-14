@@ -1,0 +1,5 @@
+127.0.0.1 - - [13/Aug/2017:13:23:18 -0700] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [13/Aug/2017:13:23:19 -0700] "GET /jspdemo/builtin-test.jsp HTTP/1.1" 200 222
+127.0.0.1 - - [13/Aug/2017:13:28:45 -0700] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [13/Aug/2017:13:28:46 -0700] "GET /tagdemo/foreach-student-table.jsp HTTP/1.1" 200 240
+0:0:0:0:0:0:0:1 - - [13/Aug/2017:23:42:26 -0700] "GET /tagdemo/foreach-student-table.jsp HTTP/1.1" 200 636
